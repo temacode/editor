@@ -1,0 +1,19 @@
+.main {
+    height: calc(100% - 4rem);
+
+    /* box-shadow: 0 1px 15px 0px rgb(0 0 0 / 30%); */
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    margin: auto 2rem;
+}
+
+.block {
+    display: block;
+    border: 1px solid #e6e4ff;
+    min-height: 19px;
+    padding: 8px 16px;
+    white-space: pre-wrap;
+}

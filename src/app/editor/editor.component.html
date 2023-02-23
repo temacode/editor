@@ -1,0 +1,6 @@
+{{focusedBlockId | async}}
+
+<button (click)="select()">select</button>
+<div #editor contenteditable="true" class="main" (click)="click()" role="textbox">
+    <span class="block" data-block-id="1">Привет мир!</span>
+</div>
